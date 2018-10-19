@@ -6,12 +6,12 @@
                             EVELYN LOPEZ NIETO
                               3er SEMESTRE
 18/10/2018 */
-
+//Clase que ejecuta una pila con todos sus metodos: agregar, eliminar, mostrar, pila vacia
 package com.ittg.estructurasLineales;
 
 import javax.swing.JOptionPane;
-
 public class Pilas2 {
+    
     private int tope, max;
     private int pila[];
 
