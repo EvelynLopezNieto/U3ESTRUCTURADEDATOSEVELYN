@@ -27,18 +27,6 @@ public class Colas implements IColas {
         cola[++fin]=item;
         }
     }
-
-    @Override
-    public void quitar() {
-        if(!(fin==tam-1)){
-            frente++;
-            JOptionPane.showMessageDialog(null,"Elemento eliminado");
-        }
-        else{
-            JOptionPane.showMessageDialog(null,"No hay datos para eliminar");
-        }
-        
-    }
     
     @Override
     public void imprimir() {
@@ -53,6 +41,17 @@ public class Colas implements IColas {
         else{
             JOptionPane.showMessageDialog(null,"Cola vacia");
         }
+    }
+    @Override
+    public void quitar() {
+        if(!(fin==tam-1)){
+            frente++;
+            JOptionPane.showMessageDialog(null,"Elemento eliminado");
+        }
+        else{
+            JOptionPane.showMessageDialog(null,"No hay datos para eliminar");
+        }
+        
     }
     
     @Override
@@ -95,6 +94,5 @@ public class Colas implements IColas {
         
         c.menu();
     } 
-
     
 }
