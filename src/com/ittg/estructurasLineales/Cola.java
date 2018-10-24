@@ -4,8 +4,6 @@ package com.ittg.estructurasLineales;
 import java.util.LinkedList;
 
 public class Cola {
-
-
     public static void main(String[] args) {
         
         LinkedList cola=new LinkedList();
